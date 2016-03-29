@@ -2,8 +2,8 @@
 	include('class/nubodesk.php');
 
 	$config = array(
-		'appKey' => '0p46YAbh7Rq8vBOXYQaNu86pI690DVj7yQgEUoQm54r3KewQLjvabJxrGSi2hfjb', 
-		'secret' => 'mwWXa5l9pLaohR2cPBVZ7wRLTbH5pLkEjV2FKymsCVTiwSeRt6wLGf85SsgNvKM4gahEYZydu9IfdgSL4E0mAkyr2d2I4Z5px4sJay6u9jAuwvcAegEeiw6dim7iUGJZ'
+		'appKey' => '[APP_KEY]', 
+		'secret' => '[APP_SECRET]'
 	);
 
 	$nubodesk = new Nubodesk($config);
